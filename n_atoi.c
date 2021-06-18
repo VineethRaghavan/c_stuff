@@ -11,6 +11,6 @@ int main()
 		i++;
 	for(n=0;isdigit(str[i]);i++)
 		n = 10*n + (str[i] - '0');
-	printf("%d", sign*n);
+	printf("%d\n", sign*n);
 	return 0;
 }
