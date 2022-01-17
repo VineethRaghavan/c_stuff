@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-mkdir -p "/home/vineeth/code/c/build" && cd "/home/vineeth/code/c/build" && gcc ../$1.c -o $1 && cd "/home/vineeth/code/c/" && "/home/vineeth/code/c/build/"$1
+mkdir -p ./build && gcc $1.c -o build/$1 && ./build/$1
